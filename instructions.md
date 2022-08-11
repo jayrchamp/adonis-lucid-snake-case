@@ -5,7 +5,7 @@ The provider must be registered inside `start/app.js` file and after `@adonisjs/
 ```js
 const providers = [
   '@adonisjs/lucid/providers/LucidProvider',
-  '@jayrchamp/adonis-lucid-snake-case'
+  '@jayrchamp/adonis-lucid-snake-case/providers/LucidSnakeCaseProvider'
 ]
 ```
 
